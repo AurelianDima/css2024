@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:empty {
+            display: block;
+            padding: 10px;
+            margin: 15px;
+        }
+
+        p:nth-child(2n){
+            color: red;
+        }
+        /* p:nth-of-type(2n) {
+            color: green;
+        } */
+        p::before{
+            content: '--';
+        }
+        p::first-line{
+            text-indent: 50px;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, minus! Eum consequatur earum, repudiandae
+        architecto neque sit officiis, labore ad laborum laudantium ab consequuntur ex iure fugiat cum, omnis nostrum.
+    </p>
+    <h1>Primul titlu</h1>
+    <p>Tenetur, expedita. Architecto natus dolore obcaecati rem, provident, dolorum doloribus cum quisquam voluptatem
+        perferendis quasi fuga expedita optio nihil eligendi eaque rerum reprehenderit dolorem qui dicta sapiente est
+        debitis? Dolore?</p>
+    <h1>Al 2-lea titlu</h1>
+    <p>Voluptates, itaque fugit commodi perspiciatis distinctio autem laudantium dolores eum numquam voluptas nobis ut
+        repellendus laboriosam recusandae expedita, nisi aliquid provident nam, eligendi temporibus repellat. Vel
+        perspiciatis optio maxime perferendis.</p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum, et sequi dolorem, illum nihil eius
+        iusto aut in similique quod quia accusantium omnis ipsam doloribus explicabo aliquid tempora est.</p>
+</body>
+
+</html>
