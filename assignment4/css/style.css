@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+    color: #333;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+
+.gallery-item {
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 150px; 
+    text-align: center; 
+    overflow: hidden;
+    margin: 40px;
+}
+
+
+.gallery-item img {
+    width: 100%; 
+    display: block; 
+    border-bottom: 1px solid #ddd;
+}
+
+
+.image-title {
+    padding: 10px 0; 
+    font-size: 14px; 
+    background-color: #f8f8f8; 
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: burlywood;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: greenyellow;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    
+    body {
+        background-color: aqua;
+    }
+}
